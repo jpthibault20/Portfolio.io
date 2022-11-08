@@ -47,7 +47,7 @@ nav {
 
 div .navlinks-container {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .navlinks-container a {
@@ -104,23 +104,36 @@ div .navlinks-container {
     flex-direction: row;
   }
 
+  nav a{
+    width: 100%;
+  }
+
   .nav-icon {
-    order: 2;
+    order: 3;
     margin: 0 auto;
   }
 
   .nav-icon span {
     font-size: 22px;
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 22%;
+    order: 2;
   }
 
   .main-navlinks {
     order: 1;
   }
 
+  .nav-icon img{
+    order: 3;
+  }
+
+
   /* Hamburger */
   .hamburger {
     width: 20px;
-    height: 20px;
+    height: 53px;
     cursor: pointer;
     border: none;
     display: flex;
