@@ -15,11 +15,13 @@ nav {
   position: fixed;
   width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+
   padding: 15px 25px;
   background: #fafafa;
   box-shadow: inset 0px -1px 0px #c5c5c6;
 }
+
 
 .nav-icon {
   display: flex;
@@ -31,26 +33,34 @@ nav {
 .nav-icon span {
   font-family: Jost Flex, sans-serif;
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 35%;
   font-weight: 400;
   color: #333;
 }
+
 .nav-icon img {
-  width: 40px;
-  /*transform: rotate(-17deg) translateX(5px);*/
+  width: 100px;
 }
+
 .hamburger {
   display: none;
 }
+
+div .navlinks-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .navlinks-container a {
-  margin: 0 10px;
+  margin: 0 60px;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   color: #414141;
-  display: inline-block;
-  position: relative;
+  /*display: inline-block;
+  position: relative;*/
 }
+
 .navlinks-container a::after {
   content: "";
   display: block;
@@ -80,13 +90,14 @@ nav {
   margin: 0 5px;
   border-radius: 5px;
   cursor: pointer;
-  border: none; 
+  border: none;
 }
 
 .sign-btns button:nth-child(2) {
   border: none;
   background: #92c3eeb7;
 }
+
 .sign-user {
   display: none;
 }
@@ -109,6 +120,7 @@ nav {
   .main-navlinks {
     order: 1;
   }
+
   /* Hamburger */
   .hamburger {
     width: 20px;
@@ -120,6 +132,7 @@ nav {
     align-items: center;
     position: relative;
   }
+
   .hamburger span {
     display: block;
     width: 100%;
@@ -129,23 +142,29 @@ nav {
     pointer-events: none;
     transition: opacity 0.3s 0.15s ease-out;
   }
+
   .hamburger span:nth-child(1),
   .hamburger span:nth-child(3) {
     transition: transform 0.3s ease-out;
   }
+
   .hamburger span:nth-child(1) {
     transform: translateY(7px);
   }
+
   .hamburger span:nth-child(3) {
     transform: translateY(-7px);
   }
+
   .hamburger.open span:nth-child(1) {
     transform: translate(0) rotate(135deg);
   }
+
   .hamburger.open span:nth-child(2) {
     opacity: 0;
     transition: opacity 0s ease-out;
   }
+
   .hamburger.open span:nth-child(3) {
     transform: translate(0) rotate(-135deg);
   }
@@ -163,9 +182,11 @@ nav {
     border-right: 1px solid #c5c5c6;
     transform: translate(-100%);
   }
+
   .open {
     transform: translate(0%);
   }
+
   .navlinks-container a {
     font-size: 18px;
     margin: 10px 0
@@ -175,14 +196,17 @@ nav {
     order: 3;
     margin-left: 0;
   }
+
   .sign-btns {
     display: none;
   }
+
   .sign-user {
     display: block;
     cursor: pointer;
     border: none;
   }
+
   .sign-user img {
     width: 20px;
   }
@@ -193,6 +217,7 @@ nav {
   .nav-icon img {
     width: 30px;
   }
+
   .nav-icon span {
     font-size: 20px;
   }
