@@ -25,19 +25,19 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
-  margin-right: 80px;
+  margin-right: 20px;
 }
 
 .nav-icon span {
   font-family: Jost Flex, sans-serif;
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 10px;
   font-weight: 400;
-  color: black;
+  color: #333;
 }
 .nav-icon img {
-  width: 90px;
-  
+  width: 40px;
+  /*transform: rotate(-17deg) translateX(5px);*/
 }
 .hamburger {
   display: none;
