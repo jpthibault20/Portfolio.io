@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: Jost;
+}
+
+header {
+    width: 100vw;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+}
+
+.Titre {
+    font-family: Jost;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -7%;
+    font-size: 40px;
+}
