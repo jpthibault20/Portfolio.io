@@ -286,13 +286,13 @@ div .navlinks-container {
   }
 
   .conteneur h2 {
-   order: 1;
-   margin-bottom: 20px;
+    order: 1;
+    margin-bottom: 20px;
   }
 
   .conteneur p {
     order: 3;
-    
+
   }
 
   .conteneur img {
@@ -303,8 +303,9 @@ div .navlinks-container {
     order: 2;
     margin-top: 20px;
     margin-left: 22vw;
-    
+
   }
+
   #carre {
     height: 2vw;
     width: 27vw;
