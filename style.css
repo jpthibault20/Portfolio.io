@@ -228,13 +228,13 @@ div .navlinks-container {
   box-shadow: inset 0px -1px 0px #c5c5c6;
 }
 
-.apropo {
+.conteneur {
   width: 100vw;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 5vw;
 }
 
-.apropo div {
+.conteneur div {
   width: 30vw;
   height: auto;
   display: inline-block;
@@ -242,11 +242,16 @@ div .navlinks-container {
   margin-left: 12vw;
 }
 
-.apropo div h2{
-  margin-bottom: 30px;
+.conteneur div h2 {
+  position: absolute;
+  font-size: 3vw;
 }
 
-.apropo img {
+.conteneur div p {
+  font-size: 1vw;
+}
+
+.conteneur img {
   width: 30vw;
   height: auto;
   border: 1px solid black;
@@ -254,6 +259,17 @@ div .navlinks-container {
   display: inline-block;
   vertical-align: middle;
   margin-left: 10vw;
+}
+
+#carre {
+  height: 2vw;
+    width: 23vw;
+    background: rgba(255, 161, 20, 0.4699999988079071);
+    margin: 0;
+    margin-top: 2.5vw;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    border-radius: 3px;
 }
 
 
@@ -266,6 +282,7 @@ div .navlinks-container {
 footer {
   background: #FFA114;
   padding: 40px 0;
+  margin-top: 5vw;
 }
 
 .single-content {
