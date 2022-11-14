@@ -228,41 +228,45 @@ div .navlinks-container {
   box-shadow: inset 0px -1px 0px #c5c5c6;
 }
 
-.conteneur {
-  width: 100vw;
-  padding: 10px;
-  margin-top: 5vw;
-}
+@media (min-width: 900px) {
+  .conteneur {
+    display: block;
+    width: 100vw;
+    padding: 10px;
+    margin-top: 5vw;
+  }
 
-.conteneur div {
-  width: 30vw;
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 12vw;
-}
+  .conteneur div {
+    width: 30vw;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12vw;
+  }
 
-.conteneur div h2 {
-  position: absolute;
-  font-size: 3vw;
-}
+  .conteneur div h2 {
+    width: auto;
+    position: absolute;
+    font-size: 3vw;
+  }
 
-.conteneur div p {
-  font-size: 1vw;
-}
+  .conteneur div p {
+    width: auto;
+    font-size: 1vw;
+  }
 
-.conteneur img {
-  width: 30vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 4vw;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10vw;
-}
+  .conteneur img {
+    width: 30vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10vw;
+  }
 
-#carre {
-  height: 2vw;
+  #carre {
+    height: 2vw;
     width: 23vw;
     background: rgba(255, 161, 20, 0.4699999988079071);
     margin: 0;
@@ -270,6 +274,47 @@ div .navlinks-container {
     margin-bottom: 25px;
     margin-left: 20px;
     border-radius: 3px;
+  }
+}
+
+@media (max-width: 900px) {
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 0 20px 0px 20px;
+  }
+
+  .conteneur h2 {
+   order: 1;
+   margin-bottom: 20px;
+  }
+
+  .conteneur p {
+    order: 3;
+    
+  }
+
+  .conteneur img {
+    width: 30vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4vw;
+    order: 2;
+    margin-top: 20px;
+    margin-left: 30vw;
+    
+  }
+  #carre {
+    height: 2vw;
+    width: 27vw;
+    background: rgba(255, 161, 20, 0.4699999988079071);
+    margin: 0;
+    margin-top: -4.5vw;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    border-radius: 3px;
+  }
 }
 
 
