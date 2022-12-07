@@ -318,12 +318,33 @@ div .navlinks-container {
   }
 }
 
+/* compétence */
+.boite_entet_compétence{
+  position: relative;
+  text-align: center;
+  margin: 50px 10px 80px 10px;
+  font-size: large;
+}
+
+.boite_entet_compétence img{
+  margin-bottom: 50px;
+}
+
+.boite_competence_svg {
+  margin: 0 20px 0 20px;
+  position: relative;
+  text-align: center;
+}
+
+.boite_competence_svg img{
+  margin: 0 30px 50px 30px;
+}
 
 
 
 
 
-/*footer*/
+/*  footer  */
 
 footer {
   background: #fdc065;
