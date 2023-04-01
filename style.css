@@ -129,7 +129,7 @@ div .navlinks-container {
   }
 
 
-  /* Hamburger */
+/**************                     Hamburger                     **************/
   .hamburger {
     width: 20px;
     height: 53px;
@@ -221,7 +221,7 @@ div .navlinks-container {
 
 }
 
-/*corps acceuil*/
+/**************                     Corps acceuil                     **************/
 .img-baniere img {
   width: 100%;
   height: 30vw;
@@ -318,7 +318,7 @@ div .navlinks-container {
   }
 }
 
-/* compétence */
+/**************                     Compétence                     **************/
 .boite_entet_compétence{
   position: relative;
   text-align: center;
@@ -343,9 +343,12 @@ div .navlinks-container {
 
 
 
+/**************                     Parcours                     **************/
 
 
-/*  footer  */
+
+
+/**************                     Footer                     **************/
 
 footer {
   background: #fdc065;
