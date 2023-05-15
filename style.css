@@ -349,6 +349,13 @@ div .navlinks-container {
   margin-top: 4vw;
   text-align: center;
 }
+.titre{
+  border : 3px solid #fdc065 ;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
 .année {
   font-weight : bold;
 }
