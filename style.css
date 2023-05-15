@@ -345,48 +345,16 @@ div .navlinks-container {
 
 
 /**************                     Parcours                     **************/
+.container div{
+  margin-top: 4vw;
+  text-align: center;
+}
+.année {
+  font-weight : bold;
+}
 
-.container{
-  margin-top: 10px;
-  margin-left: 10px;
-  height: 100vh;
-  display: flex;
-  position: relative;
-}
-.fleche_parcours{
-  position: absolute;
-}
-.container > *{
-  position: absolute;
-}
-.text_1{
-  margin-top: 10%;
-  margin-left: 2%;
-  display: flex;
-  width: 100%;
-}
-.text_1 p{
-  margin-left: 20%;
-  margin-top: 2%;
-}
-.text_1 img{
+/**************                     Projets                     **************/
 
-}
-.text_2{
-  margin-top: 50%;
-}
-.text_3{
-  margin-top: 50%;
-}
-.text_4{
-  margin-top: 50%;
-}
-.text_5{
-  margin-top: 50%;
-}
-.text_6{
-  margin-top: 50%;
-}
 
 /**************                     Footer                     **************/
 
