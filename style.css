@@ -345,7 +345,7 @@ div .navlinks-container {
 
 
 /**************                     Parcours                     **************/
-.container div{
+.container_proj div{
   margin-top: 4vw;
   text-align: center;
 }
@@ -362,6 +362,33 @@ div .navlinks-container {
 
 /**************                     Projets                     **************/
 
+.title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+
+.boite_1 {
+  margin-bottom: 50px; 
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 20px;
+  border : 3px solid #fdc065 ;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.boite_1 h4{
+  flex: 1;
+  font-weight : bold;
+  text-align: center;
+
+}
+.boite_1 p{
+  flex: 3;
+}
 
 /**************                     Footer                     **************/
 
