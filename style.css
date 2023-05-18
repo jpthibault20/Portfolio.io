@@ -320,7 +320,7 @@ div .navlinks-container {
 
 /**************                     Compétence                     **************/
 .boite_entet_compétence{
-  position: relative;
+
   text-align: center;
   margin: 50px 10px 100px 10px;
   font-size: large;
@@ -333,13 +333,22 @@ div .navlinks-container {
 
 .boite_competence_svg {
   margin: 0 20px 0 20px;
-  position: relative;
+ 
   text-align: center;
 }
 
-.boite_competence_svg img{
-  margin: 0 30px 100px 30px;
-  max-width: 10%;
+
+@media (max-width: 900px) {
+  .boite_competence_svg img {
+    margin: 0 30px 100px 30px;
+    max-width: 20vw;
+  }
+}
+@media (min-width: 900px) {
+  .boite_competence_svg img {
+    margin: 0 30px 100px 30px;
+    max-width: 10vw;
+  }
 }
 
 
