@@ -426,17 +426,20 @@ div .navlinks-container {
   .container_proj{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 4vw;
   }
 
   .P_Scolaire{
-    margin-left: 2vw;
-    margin-right: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 50%;
   }
 
   .P_profesionel{
-    margin-left: 2vw;
-    margin-right: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 50%;
   }
 }
 
