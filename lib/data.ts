@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import robotAraignee from "@/public/robotAraignée.jpg";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import teeShirtConnecte from "@/public/teeShirtConnect.jpg";
+import homeAssistant from "@/public/homeAssistant.png";
+import reactNextjs from '@/public/reacNextjs.png'
 
 export const links = [
   {
@@ -43,66 +44,83 @@ export const projectsData = [
     imageUrl: robotAraignee,
   },
   {
-    title: "rmtDev",
+    title: "Tee-shirt connectée",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Tee shirt médicale dans le but de corriger une posture et apporter un confort suplémentaire ",
+    tags: ["espressif", "C", "Routing PCB", "cordova", "HTML", "CSS", "JavaScript"],
+    imageUrl: teeShirtConnecte
   },
   {
-    title: "Word Analytics",
+    title: "Composant domotique",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Réalisation de composants actioneur et capteur dans le but de la réalisation d'un système domotique complet (chauffage, lumière, température, présence, ...)",
+    tags: ["Home assistant", "esphome", "espressif", "Fusion 360", "Raspberry", "impression 3D"],
+    imageUrl: homeAssistant,
+  },
+
+  {
+    title: "Portfolio",
+    description:
+      "Création d'un protfolio responsive",
+    tags: ["React", "Next.js", "Tailwind", "Typescript"],
+    imageUrl: reactNextjs,
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "C",
+  "C++",
   "Python",
-  "Django",
-  "Framer Motion",
+  "MATLAB",
+  "Git",
+  "Arduino",
+  "Espressif",
+  "Raspberry",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Trafic signalisation",
+    location: "Metz, fr",
+    description:
+      "Ingénieur dans le développement de panneaux lumineux (stage + job étudiant)",
+    icon: React.createElement(CgWorkAlt),
+    date: "05.2018 - 09.2018",
+  },
+  {
+    title: "BTS SN",
+    location: "Metz, fr",
+    description:
+      "J'ai obtenue mon BTS Système Numérique au therme des 2 ans de formation",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+  },
+  {
+    title: "Master EEA",
+    location: "Metz, fr",
+    description:
+      "Je suis rentré en licence, puis en master que j'ai validé avec succé, master EEA (Energie, Electronqiue, et Automatisme).",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Décathlon",
+    location: "Metz, fr",
+    description:
+      "vendeur omnicomerce (job étudiant).",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
+  {
+    title: "LTG-tech",
+    location: "Metz, fr",
+    description:
+      "Alternance au sein de LTG-Tech (start-up) en tant qu'ingénieur puis emploie à temps complet.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2024",
+  },
 ] as const;
