@@ -6,43 +6,42 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Moi");
 
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-40"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      id="À propos"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>À propos de moi</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+      Après avoir obtenu un bac+5 en {" "}
+        <span className="font-medium">Energie, Electricité et Automatisme</span>, 
+        j'ai décidé de poursuivre ma passion pour la programmation J’ai complété 
+        ma formation dans le{" "}
+        <span className="font-medium">développement de software Embarqué</span>.{" "}
+        <span className="italic">Ce que je préfère dans la programmation</span>, c'est
+        la résolution de problèmes.  J' <span className="underline">aime</span> {" "}
+        le sentiment d'avoir enfin trouvé une solution à un problème. Mes compétences 
+        de prédilection sont {" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        Arduino et Expressif {" "}
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        mais je maitrise également Raspberry, Pic, C, C++ et Python. Je cherche toujours
+         à apprendre de nouvelles technologies.
       </p>
-
+      <br></br>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Quand je ne code pas</span>, 
+        j'aime pratiquer du sport, en particulier le {" "}
+        <span className="font-medium">vélo</span>{" "}
+        ou je suis compétiteur à mes heures perdu. Et je suis en 
+        train dé d’apprendre à piloter une {" "} 
+        <span className="font-medium">moto</span>{" "} sur circuit.
       </p>
     </motion.section>
   );
