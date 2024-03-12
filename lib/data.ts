@@ -108,7 +108,7 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Décathlon",
+    title: "Decathlon",
     location: "Metz, fr",
     description:
       "vendeur omnicomerce (job étudiant).",
@@ -122,5 +122,13 @@ export const experiencesData = [
       "Alternance au sein de LTG-Tech (start-up) en tant qu'ingénieur puis emploie à temps complet.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2024",
+  },
+  {
+    title: "JP-developpement",
+    location: "Metz, fr",
+    description:
+      "",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - now",
   },
 ] as const;
